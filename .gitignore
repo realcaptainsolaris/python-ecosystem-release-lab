@@ -8,3 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
+
+# images
+python315/matplotlib_test.png
