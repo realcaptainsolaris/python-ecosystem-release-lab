@@ -1,0 +1,20 @@
+[project]
+name = "python-ecosystem-release-lab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.15"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "polars>=1.44.2",
+    "pydantic>=2.13.5",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.8",
+]
